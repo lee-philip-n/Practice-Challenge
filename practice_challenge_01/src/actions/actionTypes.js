@@ -1,0 +1,2 @@
+export const ACTION_TYPE_01 = 'ACTION_TYPE_01';
+export const ACTION_TYPE_02 = 'ACTION_TYPE_02';

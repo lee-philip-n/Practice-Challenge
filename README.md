@@ -1,1 +1,3 @@
-# Practice-Challenge
+# Practice-Challenges
+
+Series of Practice Challenges
