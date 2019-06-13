@@ -39,7 +39,7 @@ class Component02 extends React.Component {
 
   handleKeyDown(e) {
     if (this.state.value !== '') {
-      if (e.key === 'Enter') {
+      if (e.key === 'Shift') {
         this.onActionOne(this.state.value);
       }
     }
@@ -52,6 +52,7 @@ class Component02 extends React.Component {
           value={this.state.value}
           onChange={(e) => this.handleInputChange(e)}
           onKeyDown={this.handleKeyDown}
+          placeholder={'Enter Text Here'}
         />
         <Button  onClick={() => this.onActionOne(this.state.value)}>
           <span>Button 01</span>
