@@ -15,7 +15,7 @@ class Component01 extends React.Component {
     return (
       <div>
         <Title>
-          Title
+          To-Do List
         </Title>
         <Component02 />
         <Component03 />

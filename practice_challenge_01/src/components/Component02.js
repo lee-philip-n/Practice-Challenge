@@ -55,7 +55,7 @@ class Component02 extends React.Component {
           placeholder={'Enter Text Here'}
         />
         <Button  onClick={() => this.onActionOne(this.state.value)}>
-          <span>Button 01</span>
+          <span>Add Item</span>
         </Button>
       </div>
     );
