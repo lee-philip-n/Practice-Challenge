@@ -18,7 +18,7 @@ class Component03 extends React.Component {
       <li key={`str${index}`}>
         {value.str}
         <Button onClick={() => this.onActionTwo(value.strID)}>
-          <span>Button 02</span>
+          <span>Remove Item</span>
         </Button>
       </li>);
 
